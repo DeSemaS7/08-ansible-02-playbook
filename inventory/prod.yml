@@ -3,4 +3,7 @@
     hosts:
       localhost:
         ansible_connection: ssh
+        ansible_port: 2222
         ansible_user: root
+#      ubuntu:
+#        ansible_connection: docker
